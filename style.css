@@ -1,0 +1,579 @@
+html body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.fa-instagram {
+  font-family: 'Rajdhani', sans-serif;
+}
+.stroke img{
+  margin:-30px 30px;
+  display: flex;
+  width:5%;
+  height:5%;
+}
+
+
+header, main{
+  padding: 20px 30px;
+}
+.home{
+  background-color: #339999;
+}
+
+  h1 {
+    font-family: 'Megrim', cursive;
+    font-size: 65px;
+    color:#ebd1b8;
+    text-align: center;
+    padding: 200px;
+  }
+  h2{
+  font-family: 'Rajdhani', sans-serif;
+    font-size: 35px;
+  }
+.home h2{
+  font-family: 'Megrim', cursive;
+  padding:10px 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+  .about h2{
+    font-family:'Megrim', cursive;
+    font-size: 20px;
+   justify-content: center;
+
+  }
+
+.about h3{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+}
+
+.fab fa-instagram {
+  width:20%;
+  height: 20%;
+}
+
+i{
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.contact{
+          background-color: #B3C2BF;
+
+}
+   .profile-img{
+     padding: 65px 0px;
+     float:left;
+     width: 40%;
+     height:40%;
+   }
+
+.about{
+  margin-top: 0px;
+margin-bottom: 0px;
+}
+
+   .about h1{
+     padding: 50px 40px 0px 40px;
+     color: #0a6c6d;
+     margin: 0;
+   }
+.about h2{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 190%;
+}
+  .about footer{
+    padding:10px 40px;
+  }
+
+  .about footer i{
+      padding: 10px 10px;
+  }
+
+  .about p{
+    font-family: 'Rajdhani', sans-serif;
+    text-align: justify;
+    padding-right: 215px;
+    padding-left: 200px;
+    font-size: 175%;
+    vertical-align: bottom;
+  }
+
+  blockquote{
+    clear: both;
+  }
+.about{
+ background-color: #B3C2BF;
+}
+
+.skill{
+  background-color: #FFFFFF;
+}
+
+.skill h1 {
+    font-family: 'Megrim', cursive;
+    font-size: 65px;
+    color:#ebd1b8;
+    text-align: center;
+    margin-top: 3px;
+    padding-bottom:0px;
+  }
+
+#imagelist{
+  font-size: 0;
+  width: 800px;
+  margin:  91px auto;
+}
+#imagelist img {
+  margin: 9px;
+  border: 4px solid transparent;
+  display: inline-block;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  opacity:0.5;
+  height: 75px;
+  padding: 15px;
+
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition:all 0.3s ease-in;
+  -o-transition:all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+ #imagelist img:hover{
+   border-color: #F0AB42;
+   opacity: 1;
+ }
+
+ #imagelist img{
+   -webkit-border-radius:6px;
+   border-radius: 6px;
+   padding: 15px;
+ }
+
+.portfolio{
+   background-color: #B3C2BF;
+}
+#particles-js{
+  height:100%;
+  background: #B3C2BF;
+  background-size: cover;
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+   position: absolute;
+
+}
+
+
+.portfolio h2{
+  font-family: 'Rajdhani', sans-serif;
+}
+/*------------------Portfolio EFFECTS----*/
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  box-sizing: border-box;
+  height: 200px;
+  overflow: hidden;
+  transition: 0.5s;
+  /*    */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+  height: 400px;
+}
+
+.card__top {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  color: #ebd1b8;
+  align-items: center;
+  height: 200px;
+  width: 300px;
+  background: #44a1ad;
+  transition: 0.8s;
+}
+
+.card__top > h2 {
+  font-size: 24px;
+}
+
+.fas {
+  font-size: 50px;
+  text-align: center;
+}
+
+.card:hover > .card__top {
+  background: #0a6c6d;
+  color: #ebd1b8;
+}
+
+.card__bottom {
+  box-sizing: border-box;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  padding: 6px;
+  background: #ebd1b8;
+}
+
+.card__bottom > p {
+  color: #eee;
+  font-size: 17px;
+  line-height: 1.3em;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
+}
+
+.card__bottom a {
+  background: #fff;
+  color: #ebd1b8;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 16px;
+  transition: 0.5s;
+  font-family:'Rajdhani', sans-serif;
+  font-weight: bold;
+
+}
+
+.card__bottom a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ebd1b8;
+}
+
+
+.flexslider{
+  display: flex;
+  justify-content: center;
+  margin: 45px;
+background: #fff;
+border: 4px solid #fff;
+position: relative;
+zoom: 1;
+}
+
+.slides {
+    width: 40%;
+    height: 40%;
+    display: flex;
+}
+img{
+  margin: 30px 30px;
+  display: flex;
+
+
+}
+
+.artwall{
+   background-color: #FFFFFF;
+}
+
+
+.portfolio h1{
+  color:#0a6c6d;
+  padding-top: 100px;
+    padding-bottom: 100px;
+}
+/*---------Grid Gallery----*/
+
+.contact p{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 145%;
+  display:flex;
+  justify-content: center;
+}
+
+.contact h1{
+  font-size: 400%;
+  color: #3C3C3C;
+  padding: 50px 40px;
+}
+
+.userinput{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 25px;
+}
+/* FOOTER style
+----------------------------------------------------------------------------*/
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -100px; /* must be the same height as footer */
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+footer,
+.page-wrap:after {
+  height: 100px; /* however tall you want the footer to be */
+}
+
+/*-------------------------------------------------------------------*/
+
+footer{
+  background: #ebd1b8;
+  text-align: center;
+  padding: 1px;
+}
+footer p {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+footer a {
+  padding: 10px;
+}
+
+footer i{
+  padding: 10px 10px;
+}
+
+.fab{
+  padding-right: 50px;
+}
+
+/* CONTACT STYLES
+-----------------------------------------*/
+
+.linkContainer, .linkFirst, .linkSecond {
+  display: inline-block;
+}
+.linkContainer {
+  position: relative;
+  width: 200px;
+  height: 24px;
+}
+.linkFirst, .linkSecond {
+  position: absolute;
+  line-height: 0.80;
+  overflow: hidden;
+  transition: 250ms ease-in-out;
+  padding: 6px 8px;
+}
+.linkFirst {
+  font-weight: bold;
+  color: #f0ab42;
+  height: 40px;
+  opacity: 0;
+}
+.linkSecond {
+  font-weight: bold;
+  color: #0a6c6d;
+  height: 40px;
+}
+.linkContainer:hover > .linkSecond {
+  height: 0;
+}
+.linkContainer:hover > .linkFirst {
+  opacity: 1;
+}
+
+form {
+  width: 400px;
+  margin: 56px;
+  padding: 33px 449px;
+}
+input,
+textarea {
+  border: 2px solid #0a6c6d;
+  width: 388px;
+  margin-bottom: 17px;
+}
+input {
+  height: 20px;
+}
+textarea {
+  height: 100px;
+}
+button {
+  background: #0a6c6d;
+  border: none;
+  padding: 10px 40px;
+  font-size: 16px;
+}
+.linkContainer, .linkFirst, .linkSecond {
+  display: inline-block;
+}
+.linkContainer {
+  position: relative;
+  width: 200px;
+  height: 24px;
+}
+.linkFirst, .linkSecond {
+  position: absolute;
+  line-height: 0.80;
+  overflow: hidden;
+  transition: 250ms ease-in-out;
+}
+.linkFirst {
+  color: #6393ff;
+  height: 24px;
+  opacity: 0;
+}
+.linkSecond {
+  color: #555;
+  height: 24px;
+}
+.linkContainer:hover > .linkSecond {
+  height: 0;
+}
+.linkContainer:hover > .linkFirst {
+  opacity: 1;
+}
+/*--------------------------------------------*/
+/*MOVING LETTERS*/
+.ml1 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml1 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml1 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml1 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 0 0;
+}
+
+.ml1 .line1 { top: 0; }
+.ml1 .line2 { bottom: 0; }
+
+
+/*--------------Buttons for Nav--------------*/
+/* NAVIGATION */
+nav ul {
+  font-family:'Rajdhani', sans-serif;
+  font-size: 20px;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: -50px;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0px 35px 20px;
+
+}
+nav ul li a {
+  display: block;
+  padding: -15px;
+  text-decoration: none;
+  color: #B3C2BF;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #F0AB42;
+}
+
+
+/* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+nav.fill ul li a {
+  transition: all 2s;
+}
+
+nav.fill ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+nav.fill ul li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+nav.fill ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+
+
+
+/* Keyframes */
+@-webkit-keyframes fill {
+  0% {
+    width: 0%;
+    height: 1px;
+  }
+  50% {
+    width: 100%;
+    height: 1px;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    background: #333;
+  }
+}
+/*FIXED*/
+.stroke{
+position: fixed;
+ top: 0;
+ left: 0;
+ z-index: 9999;
+ width: 100%;
+ height: 50px;
+ background-color: #0a6c6d;
+ padding: 15px;
+}
+
+/*-----------------PORTFOLIO EFFECTS--------------*/

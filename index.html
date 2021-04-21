@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Precious Ajilore-project</title>
+  <!--this is the font style--->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+    <!--this is the second font style--->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <!--this is the font-style for the nav--->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+  <!---this is the font-style for the paragraphs-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+  <!--this is for the social media icons--->
+  <link rel="icon" href="images/favicon1.png" type="image">
+  <script src="https://kit.fontawesome.com/ba6e69786e.js" crossorigin="anonymous"></script>
+    <!--this is the flex slider --->
+      <link rel="stylesheet" href="flexslider.css" type="text/css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+      <script src="jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!---Grid Links for Skills Images----->
+  </head>
+
+
+  <body>
+
+
+        <div class="home" id="home">
+          <div class="page-wrap">
+          <h1 class="ml1">
+            <span class="text-wrapper">
+              <span class="line line1"></span>
+              <span class="letters">PRECIOUS AJILORE</span>
+              <span class="line line2"></span>
+            </span>
+          </h1>
+
+          <nav class="stroke">
+            <ul>
+              <img src="images/favicon1.png" align="left" />
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#artwall">Art Wall</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+          <footer>
+            <p> &copy;2021 by Precious Ajilore</p>
+            <i class="fab fa-instagram">precious.ajilore</i>
+            <i class="far fa-envelope">precious.ajilore04@gmail.com</i>
+               </footer>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      <script>
+      // Wrap every letter in a span
+      var textWrapper = document.querySelector('.ml1 .letters');
+      textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+      anime.timeline({loop: true})
+      .add({
+        targets: '.ml1 .letter',
+        scale: [0.3,1],
+        opacity: [0,1],
+        translateZ: 0,
+        easing: "easeOutExpo",
+        duration: 600,
+        delay: (el, i) => 70 * (i+1)
+      }).add({
+        targets: '.ml1 .line',
+        scaleX: [0,1],
+        opacity: [0.5,1],
+        easing: "easeOutExpo",
+        duration: 700,
+        offset: '-=875',
+        delay: (el, i, l) => 80 * (l - i)
+      }).add({
+        targets: '.ml1',
+        opacity: 0,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 1000
+      });
+
+      </script>
+      <!--this is where the home page ends  --->
+      <!--this is where the about page ends  --->
+      <div class="about" id="about">
+        <div class="page-wrap">
+          <h1>ABOUT ME</h1>
+          <img class="profile-img" src="images/profile.jpg" alt="Precious Ajilore">
+          <h2> Aspiring Web Designer and Software Engineer</h2>
+          <p>
+            I am a grade 11 high-school student with interests in science, art and coding. I love anything that allows me to utilize my creativity, learn new skills and work with others in teams. In my free time I skateboard, paint, draw or hangout with friends and family.
+          </p>
+          <p>  COVID has been extremly tough but I have used it as a chance to aquire new skills and meet new people.I am currently working on my skills in CSS,HTML, JavaScript, Photoshop, Illustrator and Adobe XD. </p>
+        <p> Recently I had the opportunity to learn these skills with a wonderful class at UForChange. This website is my project from that class. I have been able to discover and learn new things about different coding languages.My goal is to continue to create more projects  and work with others to create designs. </p>
+      </div>
+
+    </div>
+        <!--this is where the skills page ends  --->
+        <div class="skill" id="skills">
+          <div class="page-wrap">
+           <h1>Skills</h1>
+           <div id ="imagelist">
+             <img src="images/skill1.jpg" alt="Photoshop">
+             <img src="images/skill2.jpg"alt="HTML">
+            <img src="images/skill3.jpg"alt="Adobe Illustrator">
+             <img src="images/skill4.jpg"alt="CSS">
+             <img src="images/skill5.jpg"alt="GitHub">
+             <img src="images/skill6.jpg"alt="JavaScript">
+           </div>
+         </div>
+       </div>
+
+
+
+         <!--this is where the portfolio process page begins--->
+         <div class="portfolio" id="portfolio">
+           <div class="page-wrap">
+          <main role="main">
+          <header>
+            <h1>Portfolio Process</h1>
+          </header>
+          <div class='container'>
+            <div class='card'>
+              <div class='card__top'>
+                <i class="fas fa-caret-square-up"></i>
+                <h2>Personal Branding Guide</h2>
+              </div>
+              <div class='card__bottom'>
+                <p>Made for personal brand. Includes the assets,colours,fonts and logo of my  website</p>
+                <p>Adobe Illustrator</p>
+                <div>
+                  <a href='images/brandingguide.pdf'>Check it Out!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          </main>
+          </div>
+        </div>
+          <!--this is where the art-wall page begins-->
+          <div class="artwall" id="artwall">
+              <div class="page-wrap">
+            <h1>Art Wall</h1>
+            <!--this is flexslider for the photo display --->
+            <div class="flexslider">
+               <ul class="slides">
+                 <li>
+                   <img src="images/slide1.jpg" />
+                 </li>
+                 <li>
+                   <img src="images/slide2.jpg" />
+                 </li>
+                 <li>
+                   <img src="images/slide3.jpg" />
+                 </li>
+                <!-- <li>
+                   <img src="images/slide4.jpg"/>
+                 </li>--->
+                 <li>
+                   <img src="images/slide5.jpg"/>
+                 </li>
+                 <li>
+                   <img src="images/slide6.jpg"/>
+                 </li>
+                 <li>
+                   <img src="images/slide7.jpg"/>
+                 </li>
+                 <li>
+                   <img src="images/slide8.jpg"/>
+                 </li>
+               </ul>
+             </div>
+
+             <div class="flexslider">
+                <ul class="slides">
+                <!---  <li>
+                    <img src="images/drawing1.jpg" />
+                  </li>--->
+                  <li>
+                    <img src="images/drawing2.jpg" />
+                  </li>
+                  <li>
+
+                    <img src="images/drawing3.jpg" />
+                  </li>
+                  <li>
+                    <img src="images/drawing4.jpg"/>
+                  </li>
+                  <li>
+                    <img src="images/drawing5.jpg"/>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </div>
+        <script type="text/javascript">
+        $(window).load(function() {
+          $('.flexslider').flexslider({
+            animation: "slide",
+            animationLoop: false,
+            itemWidth: 150,
+            itemMargin: 20
+          });
+        });
+      </script>
+
+
+          <!--this is where the contact page begins--->
+          <div class="contact" id="contact" style="background-color:#B3C2BF">
+            <div class="page-wrap">
+              <div id="particles-js"></div>
+              <script type="text/javascript" src="particles.js"></script>
+              <script type="text/javascript" src="app.js"></script>
+              <h1>Let's Talk</h1>
+              <p>Don't be shy say hi by sending me a message at:
+                <a href="mailto:precious.ajilore04@gmail.com" class="linkContainer">
+                  <span class="linkFirst">precious.ajilore04@gmail.com</span>
+                  <span class="linkSecond">precious.ajilore04@gmail.com</span>
+                </a>
+              </p>
+               <form method="POST" action="path/to/form/script/processing">
+                 <label for="name" class="userinput">Name</label>
+                 <input id="name" type="text" name="name">
+
+                <label for="email" class="userinput">Email</label>
+                <input id="email" type="email" name="email">
+
+
+                <label for="message" class="userinput">Message</label>
+                <textarea id="message" name="message"></textarea>
+
+
+                <button type="submit" value="Sumbit">Send</button>
+               </form>
+
+             </div><!--close .page-wrap-->
+           </div>
+             <footer>
+               <p> &copy;2021 by Precious Ajilore</p>
+            </footer>
+</div>
+  </body>
+  </html>
